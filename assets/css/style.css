@@ -6471,7 +6471,9 @@ footer {
 }
 
 .footer-item .logo {
-	height: 60px;
+	height: auto;
+	width: 50%;
+	margin-bottom: 0px;
 }
 
 .footer-item .widget-title {

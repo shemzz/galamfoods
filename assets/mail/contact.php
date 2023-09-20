@@ -42,7 +42,7 @@ if(get_magic_quotes_gpc()) {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@themeforest.net";
-$address = "Info@yourdomain.com";
+$address = "davidshemang@gmail.com";
 
 
 // Configuration option.
@@ -50,14 +50,14 @@ $address = "Info@yourdomain.com";
 
 // Example, $e_subject = '$name . ' has contacted you via Your Website.';
 
-$e_subject = 'Contact Form';
+$e_subject = 'Mesage From Galamfoods COntact Form';
 
 
 // Configuration option.
 // You can change this if you feel that you need to.
 // Developers, you may wish to add more fields to the form, in which case you must be sure to add them here.
 
-$e_body = "You have been contacted by $name, their additional message is as follows." . PHP_EOL . PHP_EOL;
+$e_body = "You have been contacted on GalamFoods Website by $name, their additional message is as follows." . PHP_EOL . PHP_EOL;
 $e_content = "\"$comments\"" . PHP_EOL . PHP_EOL;
 $e_reply = "You can contact $name via email, $email";
 
